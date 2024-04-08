@@ -23,6 +23,7 @@ A collection of academic articles, published methodology, and datasets on the su
     - [Type: Text](#type-text)
     - [Type: Sequence](#type-sequence)
     - [Type: Graph](#type-graph)
+    - [Type: Multi-Modal](#type-multi-modal)
   - [Evaluation Metrics](#evaluation-metrics)
 
 A sortable version is available here: https://awesome-machine-unlearning.github.io/
@@ -266,11 +267,6 @@ The approaches fallen into this category use data partition, data augmentation a
 
 ## Datasets
 
-### Type: Diffusion
-| Dataset | #Items | Disk Size | Downstream Application | Description |
-| :-- | --- | --- | --- | --- |
-| [UnlearnCanvas](https://github.com/OPTML-Group/UnlearnCanvas) | 24K | 5GB+ | Style Transfer, etc. | [UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models](https://arxiv.org/pdf/2402.11846) |
-
 ### Type: Image
 | Dataset | #Items | Disk Size | Downstream Application | #Papers Used |
 | :-- | --- | --- | --- | --- |
@@ -308,6 +304,11 @@ The approaches fallen into this category use data partition, data augmentation a
 | [OGB](https://ogb.stanford.edu/) | 100M+ | 59MB | Classification | 2 papers |
 | [Cora](https://relational.fit.cvut.cz/dataset/CORA) | 2K+ | 4.5MB | Classification | 3 papers | 
 | [MovieLens](http://konect.cc/networks/) | 1B+ | 3GB+ | Recommender Systems | 1 paper |
+
+### Type: Multi-Modal
+| Dataset | #Items | Disk Size | Downstream Application | Description |
+| :-- | --- | --- | --- | --- |
+| [UnlearnCanvas](https://github.com/OPTML-Group/UnlearnCanvas) | 24K | 5GB+ | Text-to-Image Generation | [UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models](https://arxiv.org/pdf/2402.11846) |
 
 ----------
 ## Evaluation Metrics
